@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="h-screen w-screen font-honken bg-indigo-100 flex justify-center items-center ">
+        <figure class=" w-full max-w-[736px] h-[512px] bg-white shadow-custom rounded-[32px] flex">
+            <div class="result w-1/2 h-full flex flex-col items-center gap-7 bg-gradient-1 rounded-[32px] p-[38px] ">
+                <h1 class="capitalize text-center text-secondary text-2xl font-semibold ">Your results</h1>
+                <div
+                    class="result-circle !w-[200px] flex  justify-center items-center flex-col !h-[200px] bg-gradient-2 rounded-full ">
+                    <h3 class="text-white text-7xl font-semibold ">76</h3>
+                    <h4 class=" text-secondary text-lg ">of 100</h4>
+                </div>
+                <h2 class="text-3xl text-white font-semibold">Great</h2>
+                <p class="text-lg text-secondary text-center max-w-[250px]">You scored higher than 65% of the people who
+                    have taken these tests.</p>
+            </div>
+            <div class="statistic w-1/2 h-full rounded-[32px] p-[38px]">
+                <h1 class="capitalize text-2xl font-semibold ">summary</h1>
+                <div
+                    class="card flex justify-between items-center p-4 my-4 border-2 border-black-100 bg-red-100 rounded-md ">
+                    <div class="flex gap-2">
+                        <img src="../img/icon-reaction.svg" alt="">
+                        <h1 class="text-red-500">Reaction</h1>
+                    </div>
+                    <div>
+                        <h1 class="">80 <span class="text-blue-900"> / 100</span></h1>
+                    </div>
+                </div>
+                <div
+                    class="card flex justify-between items-center p-4 my-4 border-2 border-black-100 bg-orange-100 rounded-md ">
+                    <div class="flex gap-2">
+                        <img src="../img/icon-memory.svg" alt="">
+                        <h1 class="text-red-500">Memory</h1>
+                    </div>
+                    <div>
+                        <h1 class="">92 <span class="text-blue-900"> / 100</span></h1>
+                    </div>
+                </div>
+                <div
+                    class="card flex justify-between items-center p-4 my-4 border-2 border-black-100 bg-green-100 rounded-md ">
+                    <div class="flex gap-2">
+                        <img src="../img/icon-verbal.svg" alt="">
+                        <h1 class="text-green-500">Verbal</h1>
+                    </div>
+                    <div>
+                        <h1 class="">61 <span class="text-blue-900"> / 100</span></h1>
+                    </div>
+                </div>
+                <div
+                    class="card flex justify-between items-center p-4 my-4 border-2 border-black-100 bg-blue-100 rounded-md ">
+                    <div class="flex gap-2">
+                        <img src="../img/icon-visual.svg" alt="">
+                        <h1 class="text-blue-700">Visual</h1>
+                    </div>
+                    <div>
+                        <h1 class="">72 <span class="text-blue-900"> / 100</span></h1>
+                    </div>
+                </div>
+                <button
+                    class="bg-blue-600 w-full border-none rounded-[72px] text-2xl text-white p-4 my-4 active:bg-blue-950">Continue</button>
+            </div>
+        </figure>
+    </section>
+</body>
+
+</html>
